@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration><!-- mybatis的核心配置  -->
+
+    <!-- 给实体类起别名 -->
+    <typeAliases >
+        <package name="com.entity"/>
+    </typeAliases>
+
+
+<!--    &lt;!&ndash; mybatis的运行配置 &ndash;&gt;-->
+<!--    <settings>-->
+<!--        &lt;!&ndash; 开启二级缓存 &ndash;&gt;-->
+<!--        <setting name="cacheEnabled" value="true"/>-->
+<!--        <setting name="lazyLoadingEnabled" value="true"/>-->
+<!--        &lt;!&ndash; 打印查询语句 &ndash;&gt;-->
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+<!--        &lt;!&ndash; 如果这个属性是true,那么你的类中, 任何一个方法被执行.都要去加载属性,-->
+<!--            这个时候懒加载是没有效果的.-->
+<!--         &ndash;&gt;-->
+<!--        <setting name="aggressiveLazyLoading" value="false"/>-->
+<!--    </settings>-->
+
+</configuration>
